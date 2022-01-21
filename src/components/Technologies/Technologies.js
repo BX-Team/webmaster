@@ -6,10 +6,9 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Languages</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      A small list of languages we work in
     </SectionText>
     <List>
       <ListItem>
@@ -17,10 +16,10 @@ const Technologies = () =>  (
           <DiReact size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>JavaScript</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Our Discord bots <br />
+            written on JS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,10 +28,10 @@ const Technologies = () =>  (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Python</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            SMBomber and <br />
+            etc.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -41,10 +40,10 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Java</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Minecraft plugins <br />
+            written on Java
           </ListParagraph>
         </ListContainer>
       </ListItem>
