@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiJavaScript, DiJava, DiPython  } from 'react-icons/di';
+import { DiJavascript1, DiJava, DiPython  } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -13,7 +13,7 @@ const Technologies = () =>  (
     <List>
       <ListItem>
         <picture>
-          <DiJavaScript size="3rem" />
+          <DiJavascript1 size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>JavaScript</ListTitle>
